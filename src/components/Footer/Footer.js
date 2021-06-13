@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Itterating through one solution at a time!</Slogan>
+          <Slogan>Iterating through one simple solution for one complex problem at a time!</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/jnutt367">
     <AiFillGithub size="3rem" />
