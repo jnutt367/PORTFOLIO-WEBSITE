@@ -26,8 +26,8 @@ export const projects = [{
         id: 2,
     },
     {
-        title: 'Unichat',
-        description: "This is a code repository for a full Realtime Chat Application using React, Firebase and ChatEngine",
+        title: 'Something Else',
+        description: "This is a section that I am going to put my next project into",
         image: '/images/4.jpg',
         tags: ['React', 'ChatEngine', 'Firebase'],
         source: 'https://google.com',
@@ -41,5 +41,5 @@ export const TimeLineData = [
     { year: 2020, text: 'Enrolled as a student in Treehouse Frontend Web Development', },
     { year: 2021, text: 'Started looking for work as a freelance developer', },
     { year: 2021, text: 'Sharing my projects with the world', },
-    { year: 2021, text: 'Searching for purpose to match my drive.'}
+    { year: 2021, text: 'Searching for purpose to match my drive.' }
 ];
