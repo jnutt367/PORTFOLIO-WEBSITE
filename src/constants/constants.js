@@ -21,8 +21,8 @@ export const projects = [{
         description: "This is a reminder for all of us out there that this world of ever increasing demand for competent engineers with passion for creating great apps with sound infrastructure and architecture can be very fun too! HOCUS  RE-FOCUS!.",
         image: '/images/Resolutions.jpg',
         tags: ['javascript', 'SVG', 'GSAP3'],
-        source: 'https://google.com',
-        visit: 'https://google.com',
+        source: 'https://jnutt367.github.io/RESOLUTIONS/First_Draft.html',
+        visit: 'https://github.com/jnutt367/RESOLUTIONS.git',
         id: 2,
     },
     {
