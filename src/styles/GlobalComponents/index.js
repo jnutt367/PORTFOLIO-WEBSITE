@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Section = styled.section`
+export const Section = styled.section `
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
@@ -24,7 +24,7 @@ export const Section = styled.section`
   }
 `
 
-export const SectionTitle = styled.h2`
+export const SectionTitle = styled.h2 `
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
@@ -54,7 +54,7 @@ export const SectionTitle = styled.h2`
   }
 `
 
-export const SectionText = styled.p`
+export const SectionText = styled.p `
   max-width: 800px;
   font-size: 24px;
   line-height: 40px;
@@ -76,7 +76,7 @@ export const SectionText = styled.p`
   }
 `
 
-export const SectionDivider = styled.div`
+export const SectionDivider = styled.div `
 
   width: 64px;
   height: 6px;
@@ -98,7 +98,7 @@ export const SectionDivider = styled.div`
     height: 2px;
   }
 `
-export const SectionSubText = styled.p`
+export const SectionSubText = styled.p `
   max-width: 800px;
   font-weight: 300;
   font-size: 18px;
@@ -116,7 +116,7 @@ export const SectionSubText = styled.p`
     line-height: 22px;
   }
 `
-export const SecondaryBtn = styled.button`
+export const SecondaryBtn = styled.button `
   color: #FFF;
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.33);
@@ -166,7 +166,7 @@ export const SecondaryBtn = styled.button`
   }
 `
 
-export const ButtonBack = styled.div`
+export const ButtonBack = styled.div `
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
   border-radius: 50px;
@@ -177,7 +177,7 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, aqua 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -199,7 +199,7 @@ export const ButtonBack = styled.div`
   }
 `
 
-export const ButtonFront = styled.button`
+export const ButtonFront = styled.button `
   border: none;
   border-radius: 50px;
   color: #fff;
@@ -209,7 +209,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, black 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -245,7 +245,7 @@ export const ButtonFront = styled.button`
   }
 `
 
-export const LinkContainer = styled.div`
+export const LinkContainer = styled.div `
   margin-left: ${({ large }) => large ? '24px' : '16px'};
   transition: 0.3s ease;
   justify-content: center;
@@ -267,7 +267,7 @@ export const LinkContainer = styled.div`
   }
 `
 
-export const LinkIconImg = styled.div`
+export const LinkIconImg = styled.div `
   display: flex;  
   height: ${({ large }) => large ? '32px' : '24px'};
 

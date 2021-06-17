@@ -1,6 +1,6 @@
 export const projects = [{
-        title: 'MERN Aspirations',
-        description: "Using React, Node.js, Next.js & MongoDB, I learned how to build a Full Stack MERN Application - from start to finish. The App I created through walking through the React/Next.js Docs became a mock bootcamp site for the technology I was studying and builing with. It's amazing how that works out!",
+        title: 'React/Next.js Bootcamp Website',
+        description: "Using React, Node.js, Next.js I built a React and Next bootcamp complete with submission forms - from start to finish. The App I created through walking through the React/Next.js Docs became a mock bootcamp site for the technology I was studying and builing with. It's amazing how that works out!",
         image: '/images/bootcamp.jpg',
         tags: ['Mongo', 'Express', 'React', 'Node'],
         source: 'https://bootcamp-react-bootcamp-website-git-main-jnutt367.vercel.app/',

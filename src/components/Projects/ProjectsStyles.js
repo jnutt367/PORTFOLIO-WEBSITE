@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-export const Img = styled.img`
+export const Img = styled.img `
   width:100%;
   height:100%;
   object-fit: cover;
   overflow: hidden;
 `
 
-export const GridContainer = styled.section`
+export const GridContainer = styled.section `
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
@@ -22,8 +22,9 @@ row-gap: 3rem;
 }
 
 `
-export const BlogCard = styled.div`
+export const BlogCard = styled.div `
   border-radius: 10px;
+  background: inherit;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
@@ -31,23 +32,24 @@ export const BlogCard = styled.div`
     width: 100%;
   }
 `;
-export const TitleContent = styled.div`
+export const TitleContent = styled.div `
   text-align: center;
+  color: silver;
   z-index: 20;
   width: 100%;
 
 `;
 
 
-export const HeaderThree = styled.h3`
+export const HeaderThree = styled.h3 `
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: silver;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
-export const Hr = styled.hr`
+export const Hr = styled.hr `
   width: 50px;
   height: 3px;
   margin: 20px auto;
@@ -55,10 +57,10 @@ export const Hr = styled.hr`
   background: #d0bb57;
 `;
 
-export const Intro = styled.div`
+export const Intro = styled.div `
   width: 170px;
   margin: 0 auto;
-  color: #dce3e7;
+  color: silver;
   font-family: 'Droid Serif', serif;
   font-size: 13px;
   font-style: italic;
@@ -66,10 +68,10 @@ export const Intro = styled.div`
 `;
 
 
-export const CardInfo = styled.p`
+export const CardInfo = styled.p `
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
+  color: silver;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -80,7 +82,7 @@ export const CardInfo = styled.p`
 `;
 
 
-export const UtilityList = styled.ul`
+export const UtilityList = styled.ul `
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -88,25 +90,74 @@ export const UtilityList = styled.ul`
   margin: 2.5rem 0;
 `;
 
-export const ExternalLinks = styled.a`
-color:#d4c0c0;
-font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
-transition: 0.5s;
-&:hover{
-  background: #801414;
+export const ExternalLinks = styled.a `
+border: none;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.6rem;
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, black 100%)'};
+  opacity: ${({ disabled }) => disabled ? '.5' : '1'};
+  transition: .4s ease;
+  font-size: ${({ alt }) => alt ? '20px' : '24px'};
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3)' : 'none'};
+  &:hover {
+    background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, aqua 100%)'};
+  cursor: pointer;
+  transition: 0.5s ease;
+  position: relative;
+  overflow: hidden;
+  opacity: ${({ disabled }) => disabled ? '.5' : '1'};
+  }
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    opacity: 1;
+    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+  }
 
-}
+  &:disabled{
+    background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+    opacity: 0.5;
+    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+  }
+`
+
+export const LinkContainer = styled.div `
+  margin-left: ${({ large }) => large ? '24px' : '16px'};
+  transition: 0.3s ease;
+  justify-content: center;
+  border-radius: 50px;
+  padding: 8px;
+
+  &:hover {
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin-left: ${({ large }) => large ? '16px' : '8px'};
+
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-left: ${({ large }) => large ? '0' : '8px'};
+  }
+
 `;
 
-export const TagList = styled.ul`
+export const TagList = styled.ul `
 display: flex;
 justify-content: space-around;
 padding: 2rem;
 `
-export const Tag = styled.li`
+export const Tag = styled.li `
 color: #d8bfbf;
+text-decoration: none;
 font-size: 1.5rem;
 `
