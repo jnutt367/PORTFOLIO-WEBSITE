@@ -29,7 +29,7 @@ const GlobalStyles = createGlobalStyle `
     font-family: ${props => props.theme.fonts.title};
   }
   a {
-    text-decoration: underline;
+    text-decoration: skyblue wavy underline;
   }
   li{
     list-style: none;
