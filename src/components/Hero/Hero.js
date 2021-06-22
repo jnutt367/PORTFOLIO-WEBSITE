@@ -15,7 +15,7 @@ const Hero = (props) => (
       <SectionText style={{  marginLeft: "20px", paddingLeft: "10px" }}>
        This site is to showcase my ability to build React applications that utilize the Next.js framework and styled components for sustainable cross browser consistency, scalability and reliability.
       </SectionText>
-        <Button onClick={() => window.location = 'https://mail.google.com/mail/u/0/#inbox'}>Contact Me</Button>
+        <Button onClick={() => window.location = 'mailto:jnutt367@gmail.com/mail/u/0/#inbox'}>Contact Me</Button>
     </LeftSection>
   </Section>
 );
