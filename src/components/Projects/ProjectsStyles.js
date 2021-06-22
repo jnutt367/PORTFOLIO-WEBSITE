@@ -93,8 +93,10 @@ export const UtilityList = styled.ul `
 export const ExternalLinks = styled.a `
 border: none;
   border-radius: 50px;
-  color: #fff;
-  padding: 10px;
+  color: #FFF;
+  padding: 8px;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
   font-size: 1.6rem;
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, black 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
@@ -133,7 +135,7 @@ export const LinkContainer = styled.div `
   transition: 0.3s ease;
   justify-content: center;
   border-radius: 50px;
-  padding: 8px;
+  padding: 18px;
 
   &:hover {
     background-color: #212d45;
