@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle `
   body {
     font-family: ${props => props.theme.fonts.main};
     font-size: 1.6rem;
-    background: ${props => props.theme.colors.background2};
+    background: ${props => props.theme.colors.background3};
     color: ${props => props.theme.colors.primary1};
     cursor: default;
 
@@ -29,12 +29,15 @@ const GlobalStyles = createGlobalStyle `
     font-family: ${props => props.theme.fonts.title};
   }
   a {
-    text-decoration: skyblue wavy underline;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline overline skyblue;
   }
   li{
     list-style: none;
   }
-
+  
 `;
 
 export default GlobalStyles;

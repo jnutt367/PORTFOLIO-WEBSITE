@@ -10,7 +10,8 @@ export default {
         background1: "#0F1624",
         accent1: "hsl(34.9,98.6%,72.9%)",
         button: "hsl(205.1,100%,36.1%)",
-        background2: "black"
+        background2: "black",
+        background3: "linear-gradient(silver, black, grey, black)"
     },
     // Breakpoints for responsive design
     breakpoints: {
