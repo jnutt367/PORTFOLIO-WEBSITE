@@ -30,13 +30,15 @@ const GlobalStyles = createGlobalStyle `
   }
   a {
     text-decoration: none;
+    background-color: red;
+    opacity: 0.8;
   }
   a:hover {
     text-decoration: underline overline white;
+    background-color:aqua;
   }
   li{
     list-style: none;
-    background-color: red;
   }
   
 `;
