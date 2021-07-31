@@ -28,15 +28,16 @@ const GlobalStyles = createGlobalStyle `
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${props => props.theme.fonts.title};
   }
+  button {
+    backgound-color: red;
+    border-radius:15px;
+  }
   a {
     text-decoration: none;
-    background-color: red;
-    border-radius: none;
     opacity: 0.8;
   }
   a:hover {
     text-decoration: underline overline white;
-    background-color:aqua;
     border-radius: 15px;
   }
   li{
