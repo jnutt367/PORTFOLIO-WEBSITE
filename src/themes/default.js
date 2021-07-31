@@ -1,7 +1,7 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Tangerine",
+        title: "cursive",
         main: "sans-serif"
     },
     // Colors for layout
