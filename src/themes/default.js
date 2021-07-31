@@ -1,7 +1,7 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Metal Mania, Roboto, Helvetica",
+        title: "Poppins",
         main: "sans-serif"
     },
     // Colors for layout
