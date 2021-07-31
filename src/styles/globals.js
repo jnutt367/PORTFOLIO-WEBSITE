@@ -32,10 +32,11 @@ const GlobalStyles = createGlobalStyle `
     text-decoration: none;
   }
   a:hover {
-    text-decoration: underline overline skyblue;
+    text-decoration: underline overline white;
   }
   li{
     list-style: none;
+    background-color: red;
   }
   
 `;
