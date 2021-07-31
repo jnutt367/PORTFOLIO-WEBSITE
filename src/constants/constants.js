@@ -1,7 +1,7 @@
 export const projects = [
         {
         title: 'Learn.Build.Type',
-        description: "This is a FullStack tying game, utilizing serverless functions, Netlify to host and deploy and AirTable Base as my data storage unit",
+        description: "This is a FullStack typing game, utilizing serverless functions, Netlify to host and deploy and AirTable Base as my data storage unit",
         image: '/images/TypingGame.jpg',
         tags: ['React', 'Serverless', 'Netlify'],
         source: 'https://frosty-benz-f55e4b.netlify.app/',
@@ -40,6 +40,7 @@ export const projects = [
 export const TimeLineData = [
     { year: 2019, text: 'Started my journey', },
     { year: 2020, text: 'Enrolled as a student in Treehouse Frontend Web Development', },
+    { year: 2021, text: 'Graduated Treehouse FEWD Tech Degree', },
     { year: 2021, text: 'Started looking for work as a freelance developer', },
     { year: 2021, text: 'Sharing my projects with the world', },
     { year: 2021, text: 'Searching for purpose to match my drive.' }
