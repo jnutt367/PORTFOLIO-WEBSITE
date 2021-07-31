@@ -31,11 +31,13 @@ const GlobalStyles = createGlobalStyle `
   a {
     text-decoration: none;
     background-color: red;
+    border-radius: none;
     opacity: 0.8;
   }
   a:hover {
     text-decoration: underline overline white;
     background-color:aqua;
+    border-radius: 15px;
   }
   li{
     list-style: none;
