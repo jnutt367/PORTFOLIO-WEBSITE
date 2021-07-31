@@ -7,7 +7,7 @@ const data = [
   { number: 2100, text: 'contributions in the last year'},
   { number: 24700, text: 'Total Treehouse Points'},
   { number: 70, text: 'Commits in 7 Github Repositories in June', },
-  { number: 20, text: 'Amount of years I have on most beginning devs', }
+  { number: 20, text: 'Amount of years of life experiences I have on most beginning devs', }
 ];
 
 const Acomplishments = () => (
