@@ -121,7 +121,6 @@ export const SecondaryBtn = styled.button `
   background: red;
   border: 1px solid rgba(255, 255, 255, 0.33);
   box-sizing: border-box;
-  border-radius: 10px;
   padding: 16px 24px;
   font-weight: 600;
   font-size: 18px;
@@ -247,7 +246,6 @@ export const LinkContainer = styled.div `
   margin-left: ${({ large }) => large ? '24px' : '16px'};
   transition: 0.3s ease;
   justify-content: center;
-  border-radius: 50px;
   padding: 8px;
 
   &:hover {
