@@ -169,7 +169,6 @@ export const SecondaryBtn = styled.button `
 export const ButtonBack = styled.div `
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
-  border-radius: 35px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
   display: flex;
@@ -201,7 +200,6 @@ export const ButtonBack = styled.div `
 
 export const ButtonFront = styled.button `
   border: none;
-  border-radius: 20px;
   color: #fff;
   display: flex;
   position: absolute;
@@ -209,7 +207,7 @@ export const ButtonFront = styled.button `
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, aqua 0%, black 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, red 0%, black 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
