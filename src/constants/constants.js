@@ -2,7 +2,7 @@ export const projects = [
         {
         title: 'Learn.Build.Type',
         description: "This is a FullStack tying game, utilizing serverless functions, Netlify to host and deploy and AirTable Base as my data storage unit",
-        image: '/images/typingGameImage.jpg',
+        image: '/images/TypingGame.jpg',
         tags: ['React', 'Serverless', 'Netlify'],
         source: 'https://frosty-benz-f55e4b.netlify.app/',
         visit: 'https://github.com/jnutt367/react-serverless-demo.git',
