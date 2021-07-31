@@ -26,12 +26,12 @@ export const projects = [{
         id: 2,
     },
     {
-        title: 'Something Else',
-        description: "This is a section that I am going to put my next project into",
+        title: 'Learn.Build.Type',
+        description: "This is a FullStack tying game, utilizing serverless functions, Netlify to host and deploy and AirTable Base as my data storage unit",
         image: '/images/4.jpg',
-        tags: ['React', 'ChatEngine', 'Firebase'],
-        source: 'https://google.com',
-        visit: 'https://google.com',
+        tags: ['React', 'Serverless', 'Netlify'],
+        source: 'https://61054aff8de07f39a9dda3a9--frosty-benz-f55e4b.netlify.app/',
+        visit: 'https://github.com/jnutt367/react-serverless-demo.git',
         id: 3,
     },
 ];
