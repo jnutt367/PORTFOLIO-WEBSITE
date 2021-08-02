@@ -8,15 +8,7 @@ export const projects = [
         visit: 'https://github.com/jnutt367/react-serverless-demo.git',
         id: 3,
     },
-        {
-        title: 'React/Next.js Bootcamp Website',
-        description: "Using React, Node.js, Next.js I built a React and Next bootcamp complete with submission forms - from start to finish. The App I created through walking through the React/Next.js Docs became a mock bootcamp site for the technology I was studying and builing with. It's amazing how that works out!",
-        image: '/images/bootcamp.jpg',
-        tags: ['Mongo', 'Express', 'React', 'Node'],
-        source: 'https://bootcamp-react-bootcamp-website-git-main-jnutt367.vercel.app/',
-        visit: 'https://github.com/jnutt367/Bootstrap-React-Bootcamp-website.git',
-        id: 0,
-    },
+       
     {
         title: 'Best Of Orlando',
         description: "This is an example of the creative animating powers you get when you learn about the wonderful inline SVG world. I took an already beautiful (Thanks to Brian Nutt) illustration from illustrator, exported as an svg and animated it beautifully with GSAP3. SVGs are impressive and I can't wait to add to my portfolio. .",
@@ -34,6 +26,15 @@ export const projects = [
         source: 'https://jnutt367.github.io/RESOLUTIONS/First_Draft.html',
         visit: 'https://github.com/jnutt367/RESOLUTIONS.git',
         id: 2,
+    },
+         {
+        title: 'React/Next.js Bootcamp Website',
+        description: "Utilizing Bootstrap, I built a React and Next bootcamp complete with submission forms. The App I created through walking through the React/Next.js Docs became a mock bootcamp site for the technology I was studying"
+        image: '/images/bootcamp.jpg',
+        tags: ['Mongo', 'Express', 'React', 'Node'],
+        source: 'https://bootcamp-react-bootcamp-website-git-main-jnutt367.vercel.app/',
+        visit: 'https://github.com/jnutt367/Bootstrap-React-Bootcamp-website.git',
+        id: 0,
     }
 ];
 
