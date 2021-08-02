@@ -1,7 +1,7 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Roboto",
+        title: "Nexa",
         main: " Apex-New"
     },
     // Colors for layout
