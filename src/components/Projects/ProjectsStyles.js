@@ -92,7 +92,7 @@ export const UtilityList = styled.ul `
 
 export const ExternalLinks = styled.a `
 border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   color: #FFF;
   padding: 8px;
   padding-right: 2.5rem;
