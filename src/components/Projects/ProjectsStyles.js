@@ -91,14 +91,13 @@ export const UtilityList = styled.ul `
 `;
 
 export const ExternalLinks = styled.a `
-border: none;
-  border-radius: 10px;
+  border: none;
   color: #FFF;
   padding: 8px;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   font-size: 1.6rem;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, black 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, aqua 0%, black 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
