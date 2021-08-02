@@ -109,6 +109,7 @@ export const ExternalLinks = styled.a `
   &:hover {
     background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, aqua 100%)'};
   cursor: pointer;
+  border: 2px solid white;
   font-family: cursive;
   border-radius: 15px;
   transition: 0.5s ease;
