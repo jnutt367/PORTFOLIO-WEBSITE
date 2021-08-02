@@ -46,8 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I got into web development the same way I got into the Marine Corps, I made a desicsion that nothing would stop me and headed in a well thought out direction. Here I am a year and a half older and
-        finally starting to feel like a real developer that can build and contribute. Pick a Tech stack and start making things with it!
+      I got into web development the same way I got into the Marine Corps, I made a decision that nothing would stop me and headed in a well thought out direction. 
+       Beginning with Treehouse FEWD Tech Degree and continuing in my studies with them and many other valuable learning platforms. I do my best to create/learn/teach something new everyday.
+     Now almost 2 years in and I am finally starting to feel like a real developer that can build and contribute. Pick a Tech stack and/or mentor/course and start making things with it!
       </SectionText>
     <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
       <>
