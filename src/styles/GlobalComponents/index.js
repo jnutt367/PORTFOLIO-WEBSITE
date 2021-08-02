@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Section = styled.section `
   display: ${(props) => props.grid ? "grid" : "flex" };
-  background-color: red;
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
@@ -26,7 +25,6 @@ export const Section = styled.section `
 `
 
 export const SectionTitle = styled.h2 `
-  background-color: aqua;
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
@@ -57,6 +55,7 @@ export const SectionTitle = styled.h2 `
 `
 
 export const SectionText = styled.p `
+  background-color: red;
   max-width: 800px;
   font-size: 24px;
   line-height: 40px;
