@@ -9,7 +9,7 @@ export default {
         primary1: "hsl(0, 0%, 50%)",
         background1: "#0F1624",
         accent1: "hsl(0, 0%, 50%)",
-        button: "hsl(255, 100%, 90%)",
+        button: "hsl(0, 0%, 50%)",
         background2: "black",
         background3: "radial-gradient( green 0%, black 100% )"
     },
