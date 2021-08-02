@@ -1,13 +1,13 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Renault Light",
+        title: "Roboto",
         main: " Apex-New"
     },
     // Colors for layout
     colors: {
         primary1: "hsl(0, 0%, 50%)",
-        background1: "#0F1624",
+        background1: "pink",
         accent1: "hsl(0, 0%, 50%)",
         button: "hsl(0, 0%, 50%)",
         background2: "black",
