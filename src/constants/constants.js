@@ -40,7 +40,7 @@ export const projects = [
 
 export const TimeLineData = [
     { year: 2019, text: 'Started my journey', },
-    { month: 03, year: 2020, text: 'Enrolled in Treehouse Frontend Web Development', },
+    { month: 03, year: 2020, text: 'Enrolled in Treehouse Frontend Development', },
     { month: 09, year: 2020, text: 'Graduated Treehouse FEWD Tech Degree', },
     { year: 2021, text: 'Started looking for work as a freelance developer', },
     { year: 2021, text: 'Sharing my projects with the world', },
