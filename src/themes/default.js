@@ -11,7 +11,7 @@ export default {
         accent1: "hsl(0, 0%, 50%)",
         button: "hsl(0, 0%, 50%)",
         background2: "black",
-        background3: "radial-gradient( black 0%, green 100% )"
+        background3: "radial-gradient( black 30%, green 100% )"
     },
     // Breakpoints for responsive design
     breakpoints: {
