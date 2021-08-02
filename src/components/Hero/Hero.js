@@ -13,7 +13,8 @@ const Hero = (props) => (
         My Creative Web Portfolio
       </SectionTitle>
       <SectionText style={{  marginLeft: "20px", paddingLeft: "10px" }}>
-       This site is to showcase my ability to build React applications that utilize the Next.js framework and styled components for sustainable cross browser consistency, scalability and reliability.
+       I utilize a wide variety of best practices in order to provide a wide variety of sustainable solutions for cross browser consistency, scalability and reliability.
+       This site has just a few of my projects that show a taste of the different technologies I have used to build, publish and deploy.
       </SectionText>
         <Button onClick={() => window.location = 'mailto:jnutt367@gmail.com'}>Contact Me</Button>
     </LeftSection>
