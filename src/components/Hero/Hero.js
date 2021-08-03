@@ -10,7 +10,7 @@ const Hero = (props) => (
       <SectionTitle main center style={{  marginLeft: "20px"}}>
         It's me, Jason!<br />
         Welcome To<br />
-        My Creative<br /> Web Portfolio
+        My Creative Web Portfolio
       </SectionTitle>
  <SectionText style={{  marginLeft: "20px", paddingLeft: "10px" }}>
       * I also have 15+ years in the workforce, in an industry that is soley based on the satisfaction of the customer!
