@@ -5,7 +5,7 @@ export const Img = styled.img `
   height:100%;
   border-top-left-radius: 50px 20px;
   border-top-right-radius: 50px 20px;
-  box-shadow: 3px 3px 20px rgba(30, 130, 76, 0.5);
+  box-shadow: 5px 5px 20px rgba(30, 130, 76, 0.5);
   object-fit: cover;
   overflow: hidden;
 `
@@ -27,10 +27,10 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div `
   border-radius: 10px;
-  border-top-left-radius: 50px 20px;
-  border-top-right-radius: 50px 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 5px 5px 20px rgba(30, 130, 76, 0.5);
   background: inherit;
-  box-shadow: 3px 3px 20px rgba(30, 130, 76, 0.5);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
