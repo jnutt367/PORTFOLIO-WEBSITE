@@ -25,7 +25,7 @@ row-gap: 3rem;
 export const BlogCard = styled.div `
   border-radius: 10px;
   background: inherit;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 20px rgba(30, 130, 76, 0.5);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
