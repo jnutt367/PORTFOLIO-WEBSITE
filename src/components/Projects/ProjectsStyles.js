@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Img = styled.img `
   width:100%;
   height:100%;
+  border-top-left-radius: 50px 20px;
+  border-top-right-radius: 50px 20px;
   object-fit: cover;
   overflow: hidden;
 `
@@ -24,6 +26,8 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div `
   border-radius: 10px;
+  border-top-left-radius: 50px 20px;
+  border-top-right-radius: 50px 20px;
   background: inherit;
   box-shadow: 3px 3px 20px rgba(30, 130, 76, 0.5);
   text-align: center;
