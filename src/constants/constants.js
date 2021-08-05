@@ -31,7 +31,7 @@ export const projects = [
         title: 'React/Next.js Bootcamp Website',
         description: "Utilizing Bootstrap, I built a React/ Next bootcamp complete with submission forms. The App I created through walking through the React/Next.js Docs became a mock bootcamp site for the technology I was studying",
         image: '/images/bootcamp.jpg',
-        tags: ['Mongo', 'Express', 'React', 'Node'],
+        tags: ['Bootstrap', 'Express', 'React', 'Node'],
         source: 'https://bootcamp-react-bootcamp-website-git-main-jnutt367.vercel.app/',
         visit: 'https://github.com/jnutt367/Bootstrap-React-Bootcamp-website.git',
         id: 0,
