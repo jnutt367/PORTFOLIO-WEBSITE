@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Img = styled.img `
   width:100%;
   height:100%;
-  border-top-left-radius: 50px 20px;
-  border-top-right-radius: 50px 20px;
-  box-shadow: 5px 5px 20px rgba(30, 130, 76, 0.5);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 15px 15px 20px rgba(30, 130, 76, 0.5);
   object-fit: cover;
   overflow: hidden;
 `
@@ -27,9 +27,9 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div `
   border-radius: 10px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  box-shadow: 5px 5px 20px rgba(30, 130, 76, 0.5);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 15px 15px 20px rgba(30, 130, 76, 0.5);
   background: inherit;
   text-align: center;
   width: 400px;
