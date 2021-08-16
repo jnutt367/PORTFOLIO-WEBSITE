@@ -1,8 +1,8 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Futura Bold",
-        main: "Souvenir"
+        title: "Ariel",
+        main: "Courier New"
     },
     // Colors for layout
     colors: {
