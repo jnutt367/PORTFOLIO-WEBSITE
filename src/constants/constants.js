@@ -35,7 +35,26 @@ export const projects = [
         source: 'https://bootcamp-react-bootcamp-website-git-main-jnutt367.vercel.app/',
         visit: 'https://github.com/jnutt367/Bootstrap-React-Bootcamp-website.git',
         id: 0,
-    }
+    },
+        {
+        title: 'My Resume',
+        description: "This is a link to my Resume",
+        image: '/images/MyResumeByJason.jpg',
+        tags: ['MongoDB', 'Express', 'React', 'Node'],
+        source: 'https://my.indeed.com/p/jasonn-d9fm6zq',
+        visit: 'No Repo',
+        id: 0,
+    },
+        {
+        title: 'Frontend? It\'s Backend, Can you hear me?',
+        description: "This is my Discord server Community I am building while attending MongoDB University",
+        image: '/images/discord.jpg',
+        tags: ['Community', 'Help', 'Fellowship', 'Learning'],
+        source: 'https://discord.com/channels/876537799434702848/876537799434702851',
+        visit: 'No Repo',
+        id: 0,
+    },
+        
 ];
 
 export const TimeLineData = [
@@ -44,5 +63,7 @@ export const TimeLineData = [
     { year: 2020, text: 'Graduated Treehouse FEWD Tech Degree', },
     { year: 2021, text: 'Started looking for work as a web developer', },
     { year: 2021, text: 'Sharing my projects with the world', },
+    { year: 2021, text: 'Attending MongoDB University, becoming a certified professional Database Administarator', },
+    { year: 2021, text: 'Building a Community on Discord', },
     { year: 2021, text: 'Searching for purpose to match my drive.' }
 ];
