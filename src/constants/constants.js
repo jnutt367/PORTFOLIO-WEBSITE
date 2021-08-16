@@ -39,10 +39,9 @@ export const projects = [
         {
         title: 'My Resume',
         description: "This is a link to my Resume",
-        image: '/images/MyResumeByJason.jpg',
+        image: '/images/MyResumeByJasonNutt.jpg',
         tags: ['MongoDB', 'Express', 'React', 'Node'],
         source: 'https://my.indeed.com/p/jasonn-d9fm6zq',
-        visit: 'No Repo',
         id: 0,
     },
         {
@@ -51,7 +50,6 @@ export const projects = [
         image: '/images/discord.jpeg',
         tags: ['Community', 'Help', 'Fellowship', 'Learning'],
         source: 'https://discord.com/channels/876537799434702848/876537799434702851',
-        visit: 'No Repo',
         id: 0,
     },
         
@@ -63,7 +61,8 @@ export const TimeLineData = [
     { year: 2020, text: 'Graduated Treehouse FEWD Tech Degree', },
     { year: 2021, text: 'Started looking for work as a web developer', },
     { year: 2021, text: 'Sharing my projects with the world', },
-    { year: 2021, text: 'Attending MongoDB University, becoming a certified professional Database Administarator', },
+    { year: 2021, text: 'Attending MongoDB University', },
+    { year: 2021, text: 'Becoming a certified professional Database Administarator'},
     { year: 2021, text: 'Building a Community on Discord', },
     { year: 2021, text: 'Searching for purpose to match my drive.' }
 ];
