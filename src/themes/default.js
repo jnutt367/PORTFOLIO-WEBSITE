@@ -1,8 +1,8 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "fantasy",
-        main: " Apex-New"
+        title: "Futura Bold",
+        main: "Souvenir"
     },
     // Colors for layout
     colors: {
@@ -11,7 +11,7 @@ export default {
         accent1: "hsl(0, 0%, 50%)",
         button: "hsl(0, 0%, 50%)",
         background2: "black",
-        background3: "radial-gradient( black 60%, rgba(30, 130, 76, 0.5) 100% )"
+        background3: "radial-gradient( black 75%, rgba(30, 130, 76, 0.5) 100% )"
     },
     // Breakpoints for responsive design
     breakpoints: {
