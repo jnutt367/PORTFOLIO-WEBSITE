@@ -1,7 +1,7 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Ariel",
+        title: "cursive",
         main: "Courier New"
     },
     // Colors for layout
