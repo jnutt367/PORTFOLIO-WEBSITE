@@ -48,7 +48,7 @@ export const projects = [
         {
         title: 'Frontend? It\'s Backend, Can you hear me?',
         description: "This is my Discord server Community I am building while attending MongoDB University",
-        image: '/images/discord.jpg',
+        image: '/images/discord.jpeg',
         tags: ['Community', 'Help', 'Fellowship', 'Learning'],
         source: 'https://discord.com/channels/876537799434702848/876537799434702851',
         visit: 'No Repo',
