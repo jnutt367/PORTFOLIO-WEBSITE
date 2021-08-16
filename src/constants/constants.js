@@ -7,16 +7,14 @@ export const projects = [
         source: 'https://frosty-benz-f55e4b.netlify.app/',
         visit: 'https://github.com/jnutt367/react-serverless-demo.git',
         id: 3,
-    },
-       
-    {
-        title: 'Best Of Orlando',
-        description: "This is an example of the creative animating powers you get when you learn about the wonderful inline SVG world. I took an already beautiful (Thanks to Brian Nutt) illustration from illustrator, exported as an svg and animated it beautifully with GSAP3. SVGs are impressive and I can't wait to add to my portfolio. .",
-        image: '/images/BestOfOrlando.jpg',
-        tags: ['javascript', 'SVG', 'GSAP3'],
-        source: 'https://jnutt367.github.io/BestOfOrlando/',
-        visit: 'https://github.com/jnutt367/BestOfOrlando.git',
-        id: 1,
+    }, 
+      {
+        title: 'Frontend? It\'s Backend, Can you hear me?',
+        description: "This is my Discord server Community I am building while attending MongoDB University",
+        image: '/images/discord.jpeg',
+        tags: ['Community', 'Help', 'Fellowship', 'Learning'],
+        source: 'https://discord.com/channels/876537799434702848/876537799434702851',
+        id: 0,
     },
     {
         title: 'Timelines in GSAP3',
@@ -37,6 +35,15 @@ export const projects = [
         id: 0,
     },
         {
+        title: 'Best Of Orlando',
+        description: "This is an example of the creative animating powers you get when you learn about the wonderful inline SVG world. I took an already beautiful (Thanks to Brian Nutt) illustration from illustrator, exported as an svg and animated it beautifully with GSAP3. SVGs are impressive and I can't wait to add to my portfolio. .",
+        image: '/images/BestOfOrlando.jpg',
+        tags: ['javascript', 'SVG', 'GSAP3'],
+        source: 'https://jnutt367.github.io/BestOfOrlando/',
+        visit: 'https://github.com/jnutt367/BestOfOrlando.git',
+        id: 1,
+    },
+        {
         title: 'My Resume',
         description: "This is a link to my Resume",
         image: '/images/MyResumeByJasonNutt.jpg',
@@ -44,14 +51,7 @@ export const projects = [
         source: 'https://my.indeed.com/p/jasonn-d9fm6zq',
         id: 0,
     },
-        {
-        title: 'Frontend? It\'s Backend, Can you hear me?',
-        description: "This is my Discord server Community I am building while attending MongoDB University",
-        image: '/images/discord.jpeg',
-        tags: ['Community', 'Help', 'Fellowship', 'Learning'],
-        source: 'https://discord.com/channels/876537799434702848/876537799434702851',
-        id: 0,
-    },
+        
         
 ];
 
