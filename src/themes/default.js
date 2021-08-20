@@ -1,7 +1,7 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "'Rampart One', cursive;",
+        title: "Roboto",
         main: "san-serif"
     },
     // Colors for layout
