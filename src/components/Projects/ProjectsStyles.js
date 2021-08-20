@@ -29,7 +29,7 @@ export const BlogCard = styled.div `
   border-radius: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 15px 15px 20px rgba(30, 130, 76, 0.5);
+  box-shadow: 15px 15px 20px rgba(255, 0, 0, 0.7;
   background: inherit;
   text-align: center;
   width: 400px;
