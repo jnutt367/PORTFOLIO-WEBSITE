@@ -1,8 +1,8 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Lobster", "San-serif",
-        main: "Helvetica"
+        title: "fantasy", "San-serif",
+        main: "Arial", "Times New Roman"
     },
     // Colors for layout
     colors: {
