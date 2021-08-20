@@ -29,7 +29,7 @@ export const BlogCard = styled.div `
   border-radius: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 15px 15px 20px rgba(255, 0, 0, 0.7;
+  box-shadow: 15px 15px 20px rgba(255, 0, 0, 0.7);
   background: inherit;
   text-align: center;
   width: 400px;
@@ -102,7 +102,7 @@ export const ExternalLinks = styled.a `
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   font-size: 1.6rem;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, aqua 0%, black 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, red 0%, black 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -110,9 +110,9 @@ export const ExternalLinks = styled.a `
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3)' : 'none'};
+  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px red, inset 0px 0px 4px rgba(255, 0, 0, 0.7)' : 'none'};
   &:hover {
-    background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, aqua 100%)'};
+    background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, rgba(255, 0, 0, 0.7) 100%)'};
   cursor: pointer;
   border: 2px solid white;
   font-family: cursive;
@@ -127,13 +127,13 @@ export const ExternalLinks = styled.a `
   }
   &:active {
     opacity: 1;
-    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+    box-shadow: inset 0px 2px 1px red, inset 0px 0px 4px rgba(255, 0, 0, 0.7);
   }
 
   &:disabled{
     background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
     opacity: 0.5;
-    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+    box-shadow: inset 0px 2px 1px pink, inset 0px 0px 4px rgba(255, 0, 0, 0.7);
   }
 `
 
