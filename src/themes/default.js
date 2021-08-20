@@ -1,8 +1,8 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "cursive",
-        main: "Courier New"
+        title: "'Rampart One', cursive;",
+        main: "san-serif"
     },
     // Colors for layout
     colors: {
