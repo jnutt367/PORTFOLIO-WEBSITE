@@ -175,7 +175,7 @@ export const ButtonBack = styled.div `
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(to bottom, aqua 0%, black 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(to bottom, red 0%, black 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -206,7 +206,7 @@ export const ButtonFront = styled.button `
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(to bottom, black 0%, aqua 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(to bottom, black 0%, red 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -214,7 +214,7 @@ export const ButtonFront = styled.button `
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3)' : 'none'};
+  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(255, 0, 0, 0.4), inset 0px 0px 4px rgba(255, 0, 0, 0.7)' : 'none'};
 
   &:hover {
     opacity: 0;
@@ -224,13 +224,13 @@ export const ButtonFront = styled.button `
   }
   &:active {
     opacity: 1;
-    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+    box-shadow: inset 0px 2px 1px rgba(255, 0, 0, 0.4), inset 0px 0px 4px rgba(255, 0, 0, 0.7);
   }
 
   &:disabled{
     background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
     opacity: 0.5;
-    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+    box-shadow: inset 0px 2px 1px rgba(255, 0, 0, 0.4), inset 0px 0px 4px rgba(255, 0, 0, 0.7);
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
