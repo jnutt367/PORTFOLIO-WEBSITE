@@ -8,6 +8,15 @@ export const projects = [
         visit: 'https://github.com/jnutt367/react-serverless-demo.git',
         id: 3,
     }, 
+         {
+        title: 'Time Warp',
+        description: "This is a scrolling animation game, utilizing inline SVG and GSAP3 I imported the SVGs from Adobe Illustrator. Then, using a CDN, put the power of GSAP3 timelines & ScrollTrigger() to work animating this gorgeous SVG my brother let me have",
+        image: 'sheriffDraw.jpg',
+        tags: ['ScrollTrigger', 'SVG', 'Github Pages'],
+        source: 'https://jnutt367.github.io/Time-warp/',
+        visit: 'https://github.com/jnutt367/Time-warp.git',
+        id: 3,
+    },
       {
         title: 'Frontend? It\'s Backend, Can you hear me?',
         description: "This is my Discord server Community I am building while attending MongoDB University",
