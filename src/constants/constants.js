@@ -11,7 +11,7 @@ export const projects = [
          {
         title: 'Time Warp',
         description: "This is a scrolling animation game, utilizing inline SVG and GSAP3 I imported the SVGs from Adobe Illustrator. Then, using a CDN, put the power of GSAP3 timelines & ScrollTrigger() to work animating this gorgeous SVG my brother let me have",
-        image: 'sheriffDraw.jpg',
+        image: '/images/sheriffDraw.jpg',
         tags: ['ScrollTrigger', 'SVG', 'Github Pages'],
         source: 'https://jnutt367.github.io/Time-warp/',
         visit: 'https://github.com/jnutt367/Time-warp.git',
