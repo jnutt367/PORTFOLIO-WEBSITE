@@ -2,7 +2,7 @@ export default {
     // Temp fonts
     fonts: {
         title: "Gill Sans",
-        main: "monospace"
+        main: "Impact", "Haettenschweiler", "'Arial Narrow Bold'", "sans-serif";
     },
     // Colors for layout
     colors: {
