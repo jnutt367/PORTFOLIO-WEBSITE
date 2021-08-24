@@ -26,10 +26,11 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div `
-  border-radius: 10px;
+  border-radius: 6px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 15px 15px 20px rgba(255, 0, 0, 0.7);
+  padding: 15px;
+  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.8);
   background: inherit;
   text-align: center;
   width: 400px;
