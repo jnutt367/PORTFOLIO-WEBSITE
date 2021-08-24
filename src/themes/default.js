@@ -8,10 +8,10 @@ export default {
     colors: {
         primary1: "hsl(red, white, 50%)",
         background1: "pink",
-        accent1: "hsl(0, 0%, 50%)",
-        button: "hsl(0, 0%, 50%)",
+        accent1: "hsl(255, 0%, 50%)",
+        button: "hsl(155, 0%, 50%)",
         background2: "black",
-        background3: "radial-gradient( black 75%, rgba(255, 0, 0, 0.8) 100% )"
+        background3: "radial-gradient( black 75%, rgba(255, 0, 0, 0.8) 30% )"
     },
     // Breakpoints for responsive design
     breakpoints: {
