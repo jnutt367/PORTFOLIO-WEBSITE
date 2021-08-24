@@ -11,7 +11,7 @@ export default {
         accent1: "white",
         button: "white",
         background2: "black",
-        background3: "radial-gradient( black 75%, rgba(255, 255, 0, 0.8) 85% )"
+        background3: "radial-gradient( black 75%, rgba(255, 0, 0, 0.8) 93% )"
     },
     // Breakpoints for responsive design
     breakpoints: {
