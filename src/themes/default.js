@@ -1,8 +1,8 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Arial",
-        main: "serif"
+        title: "Gill Sans",
+        main: "monospace"
     },
     // Colors for layout
     colors: {
