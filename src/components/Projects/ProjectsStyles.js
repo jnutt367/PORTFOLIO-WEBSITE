@@ -5,7 +5,7 @@ export const Img = styled.img `
   height:100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 15px 15px 20px rgba(30, 130, 76, 0.5);
+  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5);
   object-fit: cover;
   overflow: hidden;
 `
@@ -40,7 +40,8 @@ export const BlogCard = styled.div `
 `;
 export const TitleContent = styled.div `
   text-align: center;
-  color: silver;
+  color: white;
+  text-shadow: 2px 2px 2px red;
   z-index: 20;
   width: 100%;
 
@@ -50,7 +51,8 @@ export const TitleContent = styled.div `
 export const HeaderThree = styled.h3 `
   font-weight: 500;
   letter-spacing: 2px;
-  color: silver;
+  color: white;
+  text-shadow: 2px 2px 2px red;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -77,7 +79,8 @@ export const Intro = styled.div `
 export const CardInfo = styled.p `
   width: 100%;
   padding: 0 50px;
-  color: silver;
+  color: white;
+  text-shadow: 2px 2px 2px red;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -115,7 +118,7 @@ export const ExternalLinks = styled.a `
   &:hover {
     background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, rgba(255, 0, 0, 0.7) 100%)'};
   cursor: pointer;
-  font-family: cursive;
+  font-family: Impact;
   border-radius: 5px;
   transition: 0.5s ease;
   position: relative;
