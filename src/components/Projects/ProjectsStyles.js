@@ -5,7 +5,7 @@ export const Img = styled.img `
   height:100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 177, 106, 0.5);
   object-fit: cover;
   overflow: hidden;
 `
@@ -30,7 +30,7 @@ export const BlogCard = styled.div `
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding: 15px;
-  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.8);
+  box-shadow: 5px 5px 10px rgba(0, 177, 106, 0.8);
   background: inherit;
   text-align: center;
   width: 400px;
@@ -41,7 +41,7 @@ export const BlogCard = styled.div `
 export const TitleContent = styled.div `
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 2px red;
+  text-shadow: 2px 2px 2px rgba(0, 177, 106, 1);
   z-index: 20;
   width: 100%;
 
@@ -52,7 +52,7 @@ export const HeaderThree = styled.h3 `
   font-weight: 500;
   letter-spacing: 2px;
   color: white;
-  text-shadow: 2px 2px 2px red;
+  text-shadow: 2px 2px 2px rgba(0, 177, 106, 1);
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -62,7 +62,7 @@ export const Hr = styled.hr `
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: rgba(0, 177, 106, 1);
 `;
 
 export const Intro = styled.div `
@@ -80,7 +80,7 @@ export const CardInfo = styled.p `
   width: 100%;
   padding: 0 50px;
   color: white;
-  text-shadow: 2px 2px 2px red;
+  text-shadow: 2px 2px 2px rgba(0, 177, 106, 1);
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -106,7 +106,7 @@ export const ExternalLinks = styled.a `
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   font-size: 1.6rem;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, red 0%, black 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, rgba(0, 177, 106, 1) 100%)' : 'linear-gradient(270deg, red 0%, black 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -114,7 +114,7 @@ export const ExternalLinks = styled.a `
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px red, inset 0px 0px 4px rgba(255, 0, 0, 0.7)' : 'none'};
+  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(0, 177, 106, 1), inset 0px 0px 4px rgba(0, 177, 106, 0.7)' : 'none'};
   &:hover {
     background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, rgba(255, 0, 0, 0.7) 100%)'};
   cursor: pointer;
@@ -130,13 +130,13 @@ export const ExternalLinks = styled.a `
   }
   &:active {
     opacity: 1;
-    box-shadow: inset 0px 2px 1px red, inset 0px 0px 4px rgba(255, 0, 0, 0.7);
+    box-shadow: inset 0px 2px 1px rgba(0, 177, 106, 1), inset 0px 0px 4px rgba(0, 177, 106, 0.7);
   }
 
   &:disabled{
-    background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+    background: linear-gradient(270deg, #00DBD8 0%, rgba(0, 177, 106, 1) 100%);
     opacity: 0.5;
-    box-shadow: inset 0px 2px 1px pink, inset 0px 0px 4px rgba(255, 0, 0, 0.7);
+    box-shadow: inset 0px 2px 1px pink, inset 0px 0px 4px rgba(0, 177, 106, 0.7);
   }
 `
 
@@ -148,7 +148,7 @@ export const LinkContainer = styled.div `
   padding: 18px;
 
   &:hover {
-    background-color: #212d45;
+    background-color: rgba(0, 177, 106, 1);
     transform: scale(1.2);
     cursor: pointer;
   }
