@@ -83,8 +83,8 @@ export const SectionDivider = styled.div `
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, rgba(0, 177, 106, 1) 80%)' :
+    'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, rgba(0, 177, 106, 1) 80%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -103,7 +103,7 @@ export const SectionSubText = styled.p `
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: linear-gradient(270deg, rgba(0, 177, 106, 1);
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
@@ -142,7 +142,7 @@ export const SecondaryBtn = styled.button `
 
   &:active {
     background: rgba(0, 177, 106, 0.8);
-    border: 1px solid #304169;
+    border: 1px solid rgba(0, 177, 106, 1);
     box-shadow: inset 0px 2px 1px rgba(0, 177, 106, 1), inset 0px 0px 4px rgba(0, 177, 106, 0.3);
   }
 
@@ -206,7 +206,7 @@ export const ButtonFront = styled.button `
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(to bottom, black 0%, rgba(0, 177, 106, 1) 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, rgba(0, 177, 106, 0.4) 100%)' : 'linear-gradient(to bottom, black 0%, rgba(0, 177, 106, 1) 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -214,7 +214,7 @@ export const ButtonFront = styled.button `
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(255, 0, 0, 0.4), inset 0px 0px 4px rgba(0, 177, 106, 1)' : 'none'};
+  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(0, 177, 106, 0.4), inset 0px 0px 4px rgba(0, 177, 106, 1)' : 'none'};
 
   &:hover {
     opacity: 0;
