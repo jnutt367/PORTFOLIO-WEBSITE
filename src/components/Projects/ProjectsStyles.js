@@ -106,7 +106,7 @@ export const ExternalLinks = styled.a `
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   font-size: 1.6rem;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, rgba(0, 177, 106, 1) 100%)' : 'linear-gradient(270deg, red 0%, black 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, rgba(0, 177, 106, 1) 100%)' : 'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, black 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -116,7 +116,7 @@ export const ExternalLinks = styled.a `
   cursor: pointer;
   box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(0, 177, 106, 1), inset 0px 0px 4px rgba(0, 177, 106, 0.7)' : 'none'};
   &:hover {
-    background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, rgba(255, 0, 0, 0.7) 100%)'};
+    background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, rgba(0, 177, 106, 0.7) 100%)'};
   cursor: pointer;
   font-family: Impact;
   border-radius: 5px;
