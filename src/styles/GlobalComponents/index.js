@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2 `
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(0, 177, 106, 1) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -60,7 +60,7 @@ export const SectionText = styled.p `
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 177, 106, 1);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -119,7 +119,7 @@ export const SectionSubText = styled.p `
 export const SecondaryBtn = styled.button `
   color: #FFF;
   background: red;
-  border: 1px solid rgba(255, 255, 255, 0.33);
+  border: 1px solid rgba(0, 177, 106, 1);
   box-sizing: border-box;
   padding: 16px 24px;
   font-weight: 600;
@@ -175,7 +175,7 @@ export const ButtonBack = styled.div `
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(to bottom, red 0%, black 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(to bottom, rgba(0, 177, 106, 1) 0%, black 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -206,7 +206,7 @@ export const ButtonFront = styled.button `
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(to bottom, black 0%, red 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(to bottom, black 0%, rgba(0, 177, 106, 1) 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -214,7 +214,7 @@ export const ButtonFront = styled.button `
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(255, 0, 0, 0.4), inset 0px 0px 4px rgba(255, 0, 0, 0.7)' : 'none'};
+  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(255, 0, 0, 0.4), inset 0px 0px 4px rgba(0, 177, 106, 1)' : 'none'};
 
   &:hover {
     opacity: 0;
@@ -224,13 +224,13 @@ export const ButtonFront = styled.button `
   }
   &:active {
     opacity: 1;
-    box-shadow: inset 0px 2px 1px rgba(255, 0, 0, 0.4), inset 0px 0px 4px rgba(255, 0, 0, 0.7);
+    box-shadow: inset 0px 2px 1px rgba(0, 177, 106, 0.4), inset 0px 0px 4px rgba(0, 177, 106, 0.7);
   }
 
   &:disabled{
     background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
     opacity: 0.5;
-    box-shadow: inset 0px 2px 1px rgba(255, 0, 0, 0.4), inset 0px 0px 4px rgba(255, 0, 0, 0.7);
+    box-shadow: inset 0px 2px 1px rgba(0, 177, 106, 0.4), inset 0px 0px 4px rgba(0, 177, 106, 0.7);
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
