@@ -1,12 +1,22 @@
 export const projects = [
         {
+        title: 'TechNutt',
+        description: "This is a FullStack tech store, utilizing serverless functions, vercel to host and deploy and MongoDB Atlas as my data storage unit, with Realm sync for mobile data synchronization",
+        image: '/images/estore.jpg',
+        tags: ['Next.js', 'Serverless', 'MongoDB Realm', 'Tailwind'],
+        source: 'https://estore-jnutt367.vercel.app/',
+        visit: 'https://github.com/jnutt367/estore',
+        id: 7,
+    },
+        
+        {
         title: 'Learn.Build.Type',
         description: "This is a FullStack typing game, utilizing serverless functions, Netlify to host and deploy and AirTable Base as my data storage unit",
         image: '/images/TypingGame.jpg',
         tags: ['React', 'Serverless', 'Netlify'],
         source: 'https://frosty-benz-f55e4b.netlify.app/',
         visit: 'https://github.com/jnutt367/react-serverless-demo.git',
-        id: 3,
+        id: 6,
     }, 
          {
         title: 'Time Warp',
@@ -23,7 +33,7 @@ export const projects = [
         image: '/images/discord.jpeg',
         tags: ['Community', 'Help', 'Fellowship', 'Learning'],
         source: 'https://discord.com/channels/876537799434702848/876537799434702851',
-        id: 0,
+        id: 5,
     },
     {
         title: 'Timelines in GSAP3',
@@ -58,7 +68,7 @@ export const projects = [
         image: '/images/MyResumeByJasonNutt.jpg',
         tags: ['MongoDB', 'Express', 'React', 'Node'],
         source: 'https://my.indeed.com/p/jasonn-d9fm6zq',
-        id: 0,
+        id: 4,
     },
         
         
