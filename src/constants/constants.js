@@ -7,11 +7,20 @@ export const projects = [
         source: 'https://estore-jnutt367.vercel.app/',
         visit: 'https://github.com/jnutt367/estore',
         id: 7,
+    }, 
+        {
+        title: 'MongoNutt',
+        description: "This is a documentary of my MongoDB University journey built with Bootstrap styling and gsap3 Javascript animation library, and github pages to host and deploy.",
+        image: '/images/mongonutt.jpg',
+        tags: ['Bootstrap', 'Greensock', 'Node'],
+        source: 'https://jnutt367.github.io/MongoNutt/',
+        visit: 'https://github.com/jnutt367/MongoNutt',
+        id: 8,
     },
         
         {
         title: 'Learn.Build.Type',
-        description: "This is a FullStack typing game, utilizing serverless functions, Netlify to host and deploy and AirTable Base as my data storage unit",
+        description: "This is a FullStack typing game, utilizing serverless functions, Netlify to host and deploy and AirTable Base as my data storage unit, this is a work on progress...",
         image: '/images/TypingGame.jpg',
         tags: ['React', 'Serverless', 'Netlify'],
         source: 'https://frosty-benz-f55e4b.netlify.app/',
@@ -48,7 +57,7 @@ export const projects = [
         title: 'React/Next.js Bootcamp Website',
         description: "Utilizing Bootstrap, I built a React/ Next bootcamp complete with submission forms. The App I created through walking through the React/Next.js Docs became a mock bootcamp site for the technology I was studying",
         image: '/images/bootcamp.jpg',
-        tags: ['Bootstrap', 'Express', 'React', 'Node'],
+        tags: ['Bootstrap', 'greensock', 'ScrollTrigger', 'Node'],
         source: 'https://bootcamp-react-bootcamp-website-git-main-jnutt367.vercel.app/',
         visit: 'https://github.com/jnutt367/Bootstrap-React-Bootcamp-website.git',
         id: 0,
@@ -83,5 +92,6 @@ export const TimeLineData = [
     { year: 2021, text: 'Attending MongoDB University', },
     { year: 2021, text: 'Becoming a certified professional Database Administarator'},
     { year: 2021, text: 'Building a Community on Discord', },
-    { year: 2021, text: 'Searching for purpose to match my drive.' }
+    { year: 2021, text: 'Searching for purpose to match my drive.' },
+    { year: 2021, text: 'Building & growing in Fully stacked capabilities!' }
 ];
