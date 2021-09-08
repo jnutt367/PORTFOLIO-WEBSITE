@@ -34,7 +34,7 @@ const GlobalStyles = createGlobalStyle `
     opacity: 0.8;
   }
   a:hover {
-    text-decoration: underline dotted white;
+    text-decoration: underline rgba(0, 177, 106, 0.7);
     border-radius: 15px;
   }
   li{
