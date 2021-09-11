@@ -1,5 +1,14 @@
-## My Personal Next.js React Developer Portfolio
+## Hi there It's me again! Jason Nutt aka [WebNutt](https://portfolio-website-two-pi.vercel.app/) aka [TweetNutt](https://twitter.com/JasonNutt14) aka [FaceNutt](https://www.facebook.com/jason.nutt.1481/) 👋 
 
-### A website to house my projects. 
-## UTILIZING the Next.js framework and React styled components I've created a Portfolio in order to hold and display all my favorite projects AND the code plus steps I used to build them.
-### A more extensive README file will be expanded upon in the next few days as this has just caught my attention of a must do.
+## This is a creative work that holds my Porjects of many flavors...
+🔭 I’m currently working on ...Site Re-design, adding new projects 
+🔭 I’m also currently working on ...Completing courses in MongoDB University and growing by building Charts, apps & other side projects.
+
+- 🌱 This site was built by using the Next.js framework & React Styled Components
+- ` npx create-next-app` 
+- 🌱 All Styling and refactoring + Projects are my own & from scratch
+- [Full Tutorial Video Walkthrough of Build] (https://www.youtube.com/watch?v=OPaLnMw2i_0&t=334s)
+- 👯 
+- 🤔 
+- 💬 
+- 📫 How to reach me:
