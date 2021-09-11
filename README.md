@@ -8,7 +8,6 @@
 - ` npx create-next-app` 
 - 🌱 All Styling and refactoring + Projects are my own & from scratch
 ## [Full Tutorial Video Walkthrough of Build](https://www.youtube.com/watch?v=OPaLnMw2i_0&t=334s)
-- 👯 
-- 🤔 
-- 💬 
-- 📫 How to reach me:()
+- 💬 Ask me about ...How much I've learned about styled components by re-vamping and re-iterating with continuos changes to styling?
+- 📫 How to reach me: ...jnutt367@gmail.com or 407-687-7889
+- 😄 Pronouns: ...He/Him
