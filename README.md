@@ -7,7 +7,7 @@
 - 🌱 This site was built by using the Next.js framework & React Styled Components
 - ` npx create-next-app` 
 - 🌱 All Styling and refactoring + Projects are my own & from scratch
-- [Full Tutorial Video Walkthrough of Build] (https://www.youtube.com/watch?v=OPaLnMw2i_0&t=334s)
+## [Full Tutorial Video Walkthrough of Build](https://www.youtube.com/watch?v=OPaLnMw2i_0&t=334s)
 - 👯 
 - 🤔 
 - 💬 
