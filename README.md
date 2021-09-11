@@ -1,4 +1,4 @@
-## Hi there It's me again! Jason Nutt aka [WebNutt](https://portfolio-website-two-pi.vercel.app/) aka [TweetNutt](https://twitter.com/JasonNutt14) aka [FaceNutt](https://www.facebook.com/jason.nutt.1481/) 👋 
+## Howdy! It's me again! JNutt aka [WebNutt](https://portfolio-website-two-pi.vercel.app/) aka [TweetNutt](https://twitter.com/JasonNutt14) aka [FaceNutt](https://www.facebook.com/jason.nutt.1481/) 👋 
 
 ## This is a creative work that holds my Porjects of many flavors...
 🔭 I’m currently working on ...Site Re-design, adding new projects 
