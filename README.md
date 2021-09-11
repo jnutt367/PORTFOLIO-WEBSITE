@@ -1,7 +1,7 @@
 ## Howdy! It's me again! JNutt aka [WebNutt](https://portfolio-website-two-pi.vercel.app/) aka [TweetNutt](https://twitter.com/JasonNutt14) aka [FaceNutt](https://www.facebook.com/jason.nutt.1481/) 👋 
 
-## This is a creative work that holds my Porjects of many flavors...
-🔭 I’m currently working on ...Site Re-design, adding new projects 
+## This is a creative work that holds my Projects of many flavors...
+🔭 I’m currently working on ...Site Re-design, adding new projects...Improving my E-Commerce Sites. 
 🔭 I’m also currently working on ...Completing courses in MongoDB University and growing by building Charts, apps & other side projects.
 
 - 🌱 This site was built by using the Next.js framework & React Styled Components
