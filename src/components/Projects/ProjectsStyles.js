@@ -103,13 +103,13 @@ export const ExternalLinks = styled.a `
   border: none;
   color: #FFF;
   padding: 8px;
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
-  font-size: 1.6rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-size: 0.6rem;
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, rgba(0, 177, 106, 1) 100%)' : 'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, black 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
-  font-size: ${({ alt }) => alt ? '20px' : '24px'};
+  font-size: ${({ alt }) => alt ? '10px' : '12px'};
   font-weight: 600;
   align-items: center;
   justify-content: center;
