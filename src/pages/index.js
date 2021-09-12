@@ -6,7 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-import image from '../public/images/forest.jpg'
+import image from '../public/images/forest.jpg';
 const Home = () => {
   return (
     <Layout>
