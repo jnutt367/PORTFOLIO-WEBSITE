@@ -9,12 +9,12 @@ export const projects = [
         id: 7,
     }, 
         {
-        title: 'MongoNutt',
-        description: "This is a documentary of my MongoDB University journey built with Bootstrap styling and gsap3 Javascript animation library, and github pages to host and deploy.",
-        image: '/images/mongonutt.jpg',
-        tags: ['Bootstrap', 'GSAP3', 'Node'],
-        source: 'https://jnutt367.github.io/MongoNutt/',
-        visit: 'https://github.com/jnutt367/MongoNutt',
+        title: 'D&D Character Lookup',
+        description: "Created a MongoDB atlas cluster, inserted my D&D Character data (The ones we used as kids), and then looked that data up in order to display upon searching by name",
+        image: '/images/dnd.jpg',
+        tags: ['MongoDB Atlas', 'Next.js', 'Tailwind'],
+        source: 'https://github.com/jnutt367/company_of_the_winter_dnd',
+        visit: 'https://company-of-the-winter-dnd.vercel.app/',
         id: 8,
     },
         
