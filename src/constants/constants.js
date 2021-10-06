@@ -11,7 +11,7 @@ export const projects = [
         {
         title: 'D&D Character Lookup',
         description: "Created a MongoDB Atlas cluster, inserted my own Character's data, and then displayed said data in a React UI using the Next.js framework. Autocomplete and smart search capabilities included. Maps coming soon",
-        image: '/images/estore.jpg',
+        image: '/images/dnd.jpg',
         tags: ['Next.js', 'Realm', 'MongoDB Atlas'],
         source: 'https://company-of-the-winter-dnd.vercel.app/',
         visit: 'https://github.com/jnutt367/company_of_the_winter_dnd',
