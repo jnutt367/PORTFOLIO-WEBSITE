@@ -11,11 +11,11 @@ export default {
         accent1: "white",
         button: "white",
         background2: "black",
-        background3: "radial-gradient( black 85%, rgba(42, 187, 155, 0.5) 99% )"
+        background3: "black"
     },
     // Breakpoints for responsive design
     breakpoints: {
-        sm: 'screen and (max-width: 640px)',
+        sm: 'screen and (max-width: 500px)',
         md: 'screen and (max-width: 768px)',
         lg: 'screen and (max-width: 1024px)',
         xl: 'screen and (max-width: 1280px)'
