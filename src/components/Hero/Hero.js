@@ -8,9 +8,9 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center style={{  marginLeft: "20px", fontWeight: "900", paddingRight: "20px"}}>
-        It's me, Jason!<br />
+        Hi I'm Jason!<br />
         Welcome To<br />
-        My Creative Web Portfolio
+        My Dev Portfolio
       </SectionTitle>
       <SectionText style={{  marginLeft: "20px", paddingLeft: "10px", paddingRight: "20px", color: "white" }}>
        I utilize a wide variety of best practices in order to provide a wide array of sustainable solutions for cross browser consistency, scalability and reliability.
