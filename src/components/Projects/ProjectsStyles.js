@@ -147,7 +147,7 @@ export const LinkContainer = styled.div `
   padding: 18px;
 
   &:hover {
-    background-color: rgba(100, 000, 000, 0.7);
+    background-color: rgba(000, 000, 000, 0.7);
     transform: scale(1.2);
     cursor: pointer;
   }
