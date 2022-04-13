@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const LeftSection = styled.div`
-  width: 100%;
+  width: 90%;
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: column;
 
