@@ -11,7 +11,7 @@ export default {
         accent1: "white",
         button: "white",
         background2: "black",
-        background3: "black"
+        background3: "green"
     },
     // Breakpoints for responsive design
     breakpoints: {
