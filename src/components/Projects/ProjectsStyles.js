@@ -62,7 +62,7 @@ export const Hr = styled.hr `
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: rgba(100, 000, 000, 1);
+  background: black;
 `;
 
 export const Intro = styled.div `
@@ -105,7 +105,7 @@ export const ExternalLinks = styled.a `
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   font-size: 0.6rem;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, rgba(100, 000, 000, 1) 0%, rgba(100, 000, 000, 1) 100%)' : 'linear-gradient(270deg, rgba(100, 000, 000, 1) 0%, black 100%)'};
+  background: ${({ alt }) => alt ? black;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '10px' : '12px'};
@@ -113,9 +113,9 @@ export const ExternalLinks = styled.a `
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(100, 000, 000, 1), inset 0px 0px 4px rgba(100, 000, 000, 0.7)' : 'none'};
+  box-shadow: ${({ disabled }) => disabled ? 'inset black;
   &:hover {
-    background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, rgba(100, 000, 000, 0.7) 100%)'};
+    background: ${({ alt }) => alt ? black;
   cursor: pointer;
   font-family: Impact;
   border-radius: 5px;
@@ -129,7 +129,7 @@ export const ExternalLinks = styled.a `
   }
   &:active {
     opacity: 1;
-    box-shadow: inset 0px 2px 1px rgba(100, 000, 000, 1), inset 0px 0px 4px rgba(100, 000, 000, 0.7);
+    box-shadow: inset 10px black;
   }
 
   &:disabled{
