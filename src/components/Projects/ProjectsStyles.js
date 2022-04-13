@@ -5,7 +5,7 @@ export const Img = styled.img `
   height:100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 5px 5px 10px rgba(#777, #777, #777, 0.5);
+  box-shadow: 5px 5px 10px rgba(100, 000, 000, 0.5);
   object-fit: cover;
   overflow: hidden;
 `
@@ -30,7 +30,7 @@ export const BlogCard = styled.div `
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding: 15px;
-  box-shadow: 5px 5px 10px rgba(0, 177, 106, 0.8);
+  box-shadow: 5px 5px 10px rgba(100, 000, 000, 0.8);
   background: inherit;
   text-align: center;
   width: 400px;
@@ -41,7 +41,7 @@ export const BlogCard = styled.div `
 export const TitleContent = styled.div `
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 2px rgba(0, 177, 106, 1);
+  text-shadow: none;
   z-index: 20;
   width: 100%;
 
@@ -52,7 +52,7 @@ export const HeaderThree = styled.h3 `
   font-weight: 500;
   letter-spacing: 2px;
   color: white;
-  text-shadow: 2px 2px 2px rgba(0, 177, 106, 1);
+  text-shadow: none;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -80,7 +80,6 @@ export const CardInfo = styled.p `
   width: 100%;
   padding: 0 50px;
   color: white;
-  text-shadow: 2px 2px 2px rgba(0, 177, 106, 1);
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
