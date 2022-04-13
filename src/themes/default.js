@@ -1,12 +1,12 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Gill Sans",
-        main: "Tahoma, Geneva, Verdana"
+        title: "cursive",
+        main: "Verdana"
     },
     // Colors for layout
     colors: {
-        primary1: "white",
+        primary1: "silver",
         background1: "white",
         accent1: "white",
         button: "white",
