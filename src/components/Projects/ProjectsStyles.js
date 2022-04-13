@@ -5,7 +5,7 @@ export const Img = styled.img `
   height:100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 5px 5px 10px rgba(0, 177, 106, 0.5);
+  box-shadow: 5px 5px 10px rgba(#777, #777, #777, 0.5);
   object-fit: cover;
   overflow: hidden;
 `
