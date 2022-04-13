@@ -60,7 +60,7 @@ export const SectionText = styled.p `
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(0, 177, 106, 1);
+  color: black;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -103,7 +103,7 @@ export const SectionSubText = styled.p `
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: linear-gradient(270deg, rgba(0, 177, 106, 1);
+  color: black;
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
