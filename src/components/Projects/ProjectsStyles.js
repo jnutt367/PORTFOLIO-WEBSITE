@@ -24,7 +24,7 @@ row-gap: 3rem;
   padding-bottom: 0;
 }
 
-`
+
 export const BlogCard = styled.div `
   border-radius: 6px;
   border-top-left-radius: 20px;
@@ -62,7 +62,7 @@ export const Hr = styled.hr `
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: rgba(0, 177, 106, 1);
+  background: rgba(100, 000, 000, 1);
 `;
 
 export const Intro = styled.div `
@@ -105,7 +105,7 @@ export const ExternalLinks = styled.a `
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   font-size: 0.6rem;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, rgba(0, 177, 106, 1) 100%)' : 'linear-gradient(270deg, rgba(0, 177, 106, 1) 0%, black 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, rgba(100, 000, 000, 1) 0%, rgba(100, 000, 000, 1) 100%)' : 'linear-gradient(270deg, rgba(100, 000, 000, 1) 0%, black 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '10px' : '12px'};
@@ -113,9 +113,9 @@ export const ExternalLinks = styled.a `
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(0, 177, 106, 1), inset 0px 0px 4px rgba(0, 177, 106, 0.7)' : 'none'};
+  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(100, 000, 000, 1), inset 0px 0px 4px rgba(100, 000, 000, 0.7)' : 'none'};
   &:hover {
-    background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, rgba(0, 177, 106, 0.7) 100%)'};
+    background: ${({ alt }) => alt ? 'linear-gradient(270deg, black 0%, black 100%)' : 'linear-gradient(270deg, black 0%, rgba(100, 000, 000, 0.7) 100%)'};
   cursor: pointer;
   font-family: Impact;
   border-radius: 5px;
@@ -129,13 +129,13 @@ export const ExternalLinks = styled.a `
   }
   &:active {
     opacity: 1;
-    box-shadow: inset 0px 2px 1px rgba(0, 177, 106, 1), inset 0px 0px 4px rgba(0, 177, 106, 0.7);
+    box-shadow: inset 0px 2px 1px rgba(100, 000, 000, 1), inset 0px 0px 4px rgba(100, 000, 000, 0.7);
   }
 
   &:disabled{
-    background: linear-gradient(270deg, #00DBD8 0%, rgba(0, 177, 106, 1) 100%);
+    background: linear-gradient(270deg, #00DBD8 0%, rgba(100, 000, 000, 1) 100%);
     opacity: 0.5;
-    box-shadow: inset 0px 2px 1px pink, inset 0px 0px 4px rgba(0, 177, 106, 0.7);
+    box-shadow: inset 0px 2px 1px pink, inset 0px 0px 4px rgba(000, 100, 000, 0.7);
   }
 `
 
@@ -147,7 +147,7 @@ export const LinkContainer = styled.div `
   padding: 18px;
 
   &:hover {
-    background-color: rgba(0, 177, 106, 1);
+    background-color: rgba(100, 000, 000, 0.7);
     transform: scale(1.2);
     cursor: pointer;
   }
@@ -168,7 +168,7 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li `
-color: #d8bfbf;
+color: black;
 text-decoration: none;
 font-size: 1.5rem;
 `
