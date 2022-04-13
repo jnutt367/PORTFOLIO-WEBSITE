@@ -1,7 +1,7 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "cursive",
+        title: "Roboto",
         main: "Verdana"
     },
     // Colors for layout
