@@ -5,7 +5,6 @@ export const Img = styled.img `
   height:100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 5px 5px 10px black;
   object-fit: cover;
   overflow: hidden;
 `
@@ -30,7 +29,6 @@ export const BlogCard = styled.div `
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding: 15px;
-  box-shadow: 5px 5px 10px black;
   background: inherit;
   text-align: center;
   width: 400px;
@@ -113,7 +111,6 @@ export const ExternalLinks = styled.a `
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) => disabled ? 'inset black;
   &:hover {
     background: ${({ alt }) => alt ? black;
   cursor: pointer;
