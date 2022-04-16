@@ -5,7 +5,7 @@ export const Img = styled.img `
   height:100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 5px 5px 10px rgba(000, 000, 000, 0.5);
+  box-shadow: 5px 5px 10px black;
   object-fit: cover;
   overflow: hidden;
 `
@@ -30,7 +30,7 @@ export const BlogCard = styled.div `
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding: 15px;
-  box-shadow: 5px 5px 10px rgba(000, 000, 000, 0.8);
+  box-shadow: 5px 5px 10px black;
   background: inherit;
   text-align: center;
   width: 400px;
@@ -132,9 +132,9 @@ export const ExternalLinks = styled.a `
   }
 
   &:disabled{
-    background: linear-gradient(270deg, #00DBD8 0%, rgba(000, 000, 000, 1) 100%);
+    background: linear-gradient(270deg, silver 0%, black;
     opacity: 0.5;
-    box-shadow: inset 0px 2px 1px pink, inset 0px 0px 4px rgba(000, 000, 000, 0.7);
+    box-shadow: inset 0px 2px 1px silver, inset 0px 0px 4px black;
   }
 `
 
@@ -146,7 +146,7 @@ export const LinkContainer = styled.div `
   padding: 18px;
 
   &:hover {
-    background-color: rgba(000, 000, 000, 0.7);
+    background-color: black;
     transform: scale(1.2);
     cursor: pointer;
   }
