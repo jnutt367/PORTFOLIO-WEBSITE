@@ -7,7 +7,7 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center style={{  marginLeft: "20px", fontWeight: "900", paddingRight: "20px"}}>
+      <SectionTitle main center style={{  marginLeft: "20px", color: "white" fontWeight: "900", paddingRight: "20px"}}>
         Hi I'm Jason!<br />
         Welcome To<br />
         My Dev Portfolio
