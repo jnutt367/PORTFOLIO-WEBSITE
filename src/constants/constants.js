@@ -9,7 +9,7 @@ export const projects = [
         id: 7,
     }, 
         {
-        title: 'D&D Character Lookup',
+        title: 'Character App',
         description: "Created a MongoDB Atlas cluster, inserted my own Character's data, and then displayed said data in a React UI using the Next.js framework. Autocomplete and smart search capabilities included. Maps coming soon",
         image: '/images/dnd.jpg',
         tags: ['Next.js', 'Realm', 'MongoDB Atlas'],
