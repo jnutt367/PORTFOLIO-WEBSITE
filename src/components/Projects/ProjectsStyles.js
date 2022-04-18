@@ -103,8 +103,7 @@ export const ExternalLinks = styled.a `
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   font-size: 0.6rem;
-  background: ${({ alt }) => alt ? black;
-  opacity: ${({ disabled }) => disabled ? '.5' : '1'};
+  background: black;
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '10px' : '12px'};
   font-weight: 600;
@@ -112,7 +111,7 @@ export const ExternalLinks = styled.a `
   justify-content: center;
   cursor: pointer;
   &:hover {
-    background: ${({ alt }) => alt ? black;
+    background: black;
   cursor: pointer;
   font-family: Impact;
   border-radius: 5px;
@@ -127,7 +126,7 @@ export const ExternalLinks = styled.a `
   &:active {
     opacity: 1;
   }
-`
+
   &:disabled{
     background: linear-gradient(270deg, silver 0%, black;
     opacity: 0.5;
