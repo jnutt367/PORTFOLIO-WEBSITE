@@ -22,7 +22,7 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
+`;
 
 export const BlogCard = styled.div `
   border-radius: 6px;
@@ -127,7 +127,7 @@ export const ExternalLinks = styled.a `
   &:active {
     opacity: 1;
   }
-
+`
   &:disabled{
     background: linear-gradient(270deg, silver 0%, black;
     opacity: 0.5;
