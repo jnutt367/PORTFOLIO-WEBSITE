@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <Layout>
        <Section grid>
+      <BgAnimation />
         <Hero />
          <BgAnimation />
        </Section>
