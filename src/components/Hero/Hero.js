@@ -7,12 +7,12 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center style={{  marginLeft: "20px", color: "white" fontWeight: "900", paddingRight: "20px"}}>
+      <SectionTitle main center style={{  marginLeft: "20px", color: "white", fontWeight: "900", paddingRight: "20px"}}>
         Hi I'm Jason!<br />
         Welcome To<br />
         My Dev Portfolio
       </SectionTitle>
-      <SectionText style={{  marginLeft: "20px", paddingLeft: "10px", paddingRight: "20px", color: "white" }}>
+      <SectionText style={{ marginLeft: "20px", paddingLeft: "10px", paddingRight: "20px", color: "white" }}>
        I utilize a wide variety of best practices in order to provide a wide array of sustainable solutions for cross browser consistency, scalability and reliability.
        This site has just a few of my projects that show a taste of the different technologies I have used to build, publish and deploy.
       </SectionText>
