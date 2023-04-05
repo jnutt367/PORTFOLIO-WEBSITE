@@ -12,7 +12,7 @@ const Home = () => {
        <Section grid>
         <Hero />
          <BgAnimation />
-       </Section>
+       <Section />
       <Projects />
       <Technologies />
       <Timeline />
