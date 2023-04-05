@@ -8,6 +8,7 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
+    <div>
     <Layout>
        <Section grid>
         <Hero />
@@ -18,6 +19,7 @@ const Home = () => {
       <Timeline />
       <Acomplishments />
     <Layout />
+    </div>
   );
 };
 
