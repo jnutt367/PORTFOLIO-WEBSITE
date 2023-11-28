@@ -15,4 +15,11 @@
     "styled-normalize": "^8.0.7",
     "react-icons": "^4.2.0"
   }
+
+{
+  "engines": {
+    "node": ">=0.10.3 <15"
+  }
+}
+  
 }
